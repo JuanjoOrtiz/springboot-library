@@ -1,2 +1,2 @@
 # springboot-library
-book management app
+Book management app
