@@ -1,14 +1,14 @@
 package com.springboot.api.library.services;
 
-import com.springboot.api.library.entity.Book;
-import com.springboot.api.library.entity.Loan;
 
-import java.util.List;
-import java.util.Optional;
+import com.springboot.api.library.entity.Member;
+
+import java.util.*;
+
 
 public interface MemberService {
-    List<Member> findByAll();
-    Optional<Loan> findById(Long id);
-    Book save(Loan loan);
+    List<Member> findAll();
+    Optional<Member> findById(Long id);
+    Member save(Member member);
     void delete(Long id);
 }

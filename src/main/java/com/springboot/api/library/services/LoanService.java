@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface LoanService {
-    List<Loan> findByAll();
+    List<Loan> findAll();
     Optional<Loan> findById(Long id);
     Loan save(Loan loan);
     void delete(Long id);
