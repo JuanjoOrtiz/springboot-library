@@ -25,7 +25,7 @@ public class Loan {
 
   //  @OneToMany
   //  @JoinColumn(name = "bookId")
-      private Book book;
+ //     private Book book;
 
   //  @OneToMany
  // @JoinColumn(name = "userId")
