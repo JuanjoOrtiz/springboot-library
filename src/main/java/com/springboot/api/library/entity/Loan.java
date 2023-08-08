@@ -23,13 +23,13 @@ public class Loan {
 
 
 
-  //  @OneToMany
-  //  @JoinColumn(name = "bookId")
- //     private Book book;
+   /* @OneToMany
+   @JoinColumn(name = "bookId")
+      private Book book;*/
 
-  //  @OneToMany
- // @JoinColumn(name = "userId")
- //   User user;
+ /*  @OneToMany
+  @JoinColumn(name = "userId")
+    User user;*/
 
     @CreatedDate
     private LocalDateTime loanDate;

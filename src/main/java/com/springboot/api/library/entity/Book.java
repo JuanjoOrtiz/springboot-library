@@ -28,28 +28,28 @@ Book {
 
     private String title;
 
-    //  @ManyToMany
-  //  @JoinColumn(name = "authorId")
-  //  private Author author;
+    /* @ManyToMany
+    @JoinColumn(name = "authorId")
+    private Author author;*/
 
     @CreatedDate
     private LocalDateTime publicationDate;
 
-    //    @ManyToMany
-//    @JoinColumn(name = "genderId")
- //   private Gender gender;
+ /*     @ManyToMany
+    @JoinColumn(name = "genderId")
+    private Gender gender;*/
 
-    //   @OneToMany
- //   @JoinColumn(name = "editorialId")
-  //  private Editorial editorial;
+   /*   @OneToMany
+   @JoinColumn(name = "editorialId")
+    private Editorial editorial;*/
 
-    //  @OneToMany
- //   @JoinColumn(name = "shelfId")
-//    private Shelf shelf;
+  /*    @OneToMany
+   @JoinColumn(name = "shelfId")
+  private Shelf shelf;*/
 
-    //   @ManyToMany
- //   @JoinColumn(name = "categoryId")
- //   private Category category;
+   /*    @ManyToMany
+   @JoinColumn(name = "categoryId")
+   private Category category;*/
 
 
 
