@@ -1,4 +1,4 @@
-package com.springboot.api.library.entity;
+package com.springboot.api.library.auth.models.entity;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -20,8 +20,8 @@ public class User {
     @Column(name="id")
     private Long id;
 
-    @Column(name = "email", unique = true)
-    private String email;
+    @Column(name = "username", unique = true)
+    private String username;
 
     @Column(name ="password")
     private String password;
